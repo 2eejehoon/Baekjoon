@@ -6,7 +6,7 @@ const input = fs
   .trim()
   .split("\n")
   .map(Number);
-// 마지막 입력값 0 제거
+
 input.pop();
 for (let i = 0; i < input.length; i++) {
   let n = input[i];
